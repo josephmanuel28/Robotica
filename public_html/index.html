@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <link rel="shortcut icon" type="image/x-icon" href="/sqmcapp/javax.faces.resource/icarus-layout/images/favicon2.ico.xhtml" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/theme.css.xhtml?ln=primefaces-icarus-orange" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=7.0.RC3" /><script type="text/javascript" src="/sqmcapp/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=7.0.RC3"></script><script type="text/javascript" src="/sqmcapp/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=7.0.RC3"></script><script type="text/javascript" src="/sqmcapp/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=7.0.RC3"></script><script type="text/javascript" src="/sqmcapp/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=7.0.RC3"></script><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=7.0.RC3" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/css/animate.css.xhtml?ln=icarus-layout" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/css/nanoscroller.css.xhtml?ln=icarus-layout" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/css/generico.css.xhtml?ln=icarus-layout" /><link type="text/css" rel="stylesheet" href="/sqmcapp/javax.faces.resource/css/layout-orange.css.xhtml?ln=icarus-layout" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';}</script>
+        <title>Apps SQMC</title><script type="text/javascript" src="/sqmcapp/javax.faces.resource/js/nanoscroller.js.xhtml?ln=icarus-layout"></script><script type="text/javascript" src="/sqmcapp/javax.faces.resource/js/layout.js.xhtml?ln=icarus-layout"></script><script type="text/javascript" src="/sqmcapp/javax.faces.resource/js/calendar_pt.js.xhtml?ln=icarus-layout"></script>
+        <style type="text/css">
+            .main-content {
+                padding: 0;
+            }
+
+            #main-wrapper-content {
+                padding: 10px;
+            }
+        </style></head><body>
+        <div class="wrapper">
+
+            <div id="sidebar-wrapper">
+
+
+
+    <div id="sidebar-header">
+        <div id="logo-wrapper">
+            <a href="index"><img id="logo" src="/sqmcapp/javax.faces.resource/images/logo.png.xhtml?ln=icarus-layout" height="85px" width="80px" />
+            </a>
+        </div>
+        <a id="slim-menu-button" href="#">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+    </div>
+
+                <div class="sidebar-nav nano">
+                    <div class="nano-content sidebar-scroll-content">
+<form id="menuform" name="menuform" method="post" action="/sqmcapp/index" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="menuform" value="menuform" />
+<ul id="layout-menu" class="sidebar-nav-container"><li id="menuform:im_dashboard" role="menuitem" class="sidebar-menuitem"><a class="menuLink" href="/sqmcapp/index"><i class="fa fa-home"></i><span class="menu-text-group"><span class="menu-text">Home</span></span></a></li><li id="menuform:im_components" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Gestão de recursos</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:im_sample" role="menuitem" class="sidebar-submenuitem"><a href="#" class="menuLink"><i class="fa fa-angle-right"></i><span class="menu-text">MSISDN</span><i class="fa fa-angle-right"></i></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:ready_number" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/ordens_msisdn_sem"><i class="fa fa-mobile-phone"></i><span class="menu-text">Disponíveis</span></a></li></ul></li></ul></li><li id="menuform:im_default" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Gestão de releases</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:im_newRL" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/new_rl"><i class="fa fa-list-alt"></i><span class="menu-text">Plano das releases</span></a></li><li id="menuform:im_newTT" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/new_ticket"><i class="fa fa-credit-card"></i><span class="menu-text">Gerir tickets</span></a></li></ul></li><li id="menuform:im_Know" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Knowledge base</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:im_KB_procedimento" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/up-procedimento"><i class="fa fa-file-text"></i><span class="menu-text">Upload de procedimentos</span></a></li><li id="menuform:im_KB_Visualizar" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/viewer-procedimento"><i class="fa fa-eye"></i><span class="menu-text">Visualizar procedimento</span></a></li></ul></li><li id="menuform:im_default21" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Gestão de utilizadores</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:im_users" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/utilizador"><i class="fa fa-user"></i><span class="menu-text">Utilizador</span></a></li><li id="menuform:im_person" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/pessoas"><i class="fa fa-user"></i><span class="menu-text">Pessoas</span></a></li></ul></li><li id="menuform:im_utilmenu" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Informações úteis</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:shortcodes" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/shortcodes"><i class="fa fa-info"></i><span class="menu-text">ShortCodes</span></a></li><li id="menuform:maquinas" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/maquinas"><i class="fa fa-info"></i><span class="menu-text">Lista de servidores</span></a></li></ul></li><li id="menuform:j_idt15" role="menuitem" class="sidebar-menuitem"><a href="#" class="menuLink"><i class="fa fa-chevron-right"></i><span class="menu-text-group"><span class="menu-text">Operações CRM</span><i class="fa fa-angle-right"></i></span></a><ul role="menu" class="sidebar-submenu-container"><li id="menuform:j_idt16" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/fileEvent"><i class="fa fa-file-text-o"></i><span class="menu-text">File Events</span></a></li><li id="menuform:j_idt17" role="menuitem" class="sidebar-submenuitem"><a class="menuLink" href="/sqmcapp/smslogs"><i class="fa fa-envelope-o"></i><span class="menu-text">SMS Logs</span></a></li></ul></li></ul><script id="menuform:j_idt14_s" type="text/javascript">$(function(){PrimeFaces.cw("Icarus","IcarusMenu",{id:"menuform:j_idt14"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="918437445381504173:-5844684084594643557" autocomplete="off" />
+</form>
+                    </div>
+                </div>
+            </div>
+
+
+    <div id="top-bar-wrapper">
+        <div id="top-bar">
+            <div class="search-bar"><label id="j_idt20" class="ui-outputlabel ui-widget" style="text-align: right;padding-right: 15px;background-color: transparent;border: 0px;color: orange; padding-left: 20px">Último acesso: 2019-07-24 09:42:47 </label>
+            </div>
+
+            <div class="top-bar-profile">
+
+                <div class="profile-name">
+                    <span style="color: orange">Joseph Manuel</span><br />
+                    <span>QMC</span>
+                </div>
+                <a href="#" id="profile-image"><img src="/sqmcapp/javax.faces.resource/images/man-user.png.xhtml?ln=icarus-layout" height="32" style="border: 0 none;" width="32" />
+                </a>
+                <ul class="top-submenu animated flipInX">
+                    <li>
+                        <a href="perfil">
+                            <i class="fa fa-fw fa-user"></i>
+                            <span>Meu Perfil</span>
+                        </a>
+                    </li>
+
+                    <li><a id="j_idt24" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt24&quot;});return false;">
+                            <i class="top-submenu-icon fa fa-fw fa-close"></i>
+                            <span>Log Out</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="top-menu">
+
+                <!--
+                &lt;div class="top-bar-icon"&gt;
+                    &lt;a href="#" title="Notifica&ccedil;&otilde;es de atribui&ccedil;&otilde;es de tarefas"&gt;
+                        &lt;i class="fa fa-bell-o animated swing" aria-hidden="true"&gt;&lt;/i&gt;
+                        &lt;i class="top-bar-badge animated rubberBand"&gt;3&lt;/i&gt;
+                    &lt;/a&gt;                    
+                &lt;/div&gt;
+
+                    &lt;div class="top-menu"&gt;
+                        &lt;div class="top-bar-icon"&gt;
+                            &lt;a href="#" title="Notifica&ccedil;&otilde;es de atribui&ccedil;&otilde;es de tarefas"&gt;
+                                &lt;i class="fa fa-bell-o animated swing" aria-hidden="true"&gt;&lt;/i&gt;
+                                &lt;i class="top-bar-badge animated rubberBand"&gt;3&lt;/i&gt;
+                            &lt;/a&gt;
+                            &lt;ul class="top-submenu animated flipInX"&gt;
+                                &lt;li class="header"&gt;Recebeu 3 tarefas&lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="#"&gt;
+                                        &lt;i class="top-submenu-icon fa fa-fw fa-mobile"&gt;&lt;/i&gt;
+                                        &lt;span&gt;Enviar email para o Lomande&lt;/span&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="#"&gt;
+                                        &lt;i class="top-submenu-icon fa fa-fw fa-line-chart"&gt;&lt;/i&gt;
+                                        &lt;span&gt;Reunir com a Equipa de Dev&lt;/span&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="#"&gt;
+                                        &lt;i class="top-submenu-icon fa fa-fw fa-plane"&gt;&lt;/i&gt;
+                                        &lt;span&gt;Marcar F&eacute;rias urgentes&lt;/span&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+        
+                       
+                        &lt;div class="top-bar-icon"&gt;
+                            &lt;a href="#" title="Guia de Utiliza&ccedil;&atilde;o"&gt;
+                                &lt;i class="fa fa-support" aria-hidden="true"&gt;&lt;/i&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                        
+                    &lt;/div&gt;
+                -->
+            </div>
+        </div>
+    </div>         
+
+            <div id="main-wrapper">
+                <div class="main-content">
+<form id="j_idt28" name="j_idt28" method="post" action="/sqmcapp/index" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt28" value="j_idt28" />
+<span id="j_idt28:messages"></span><script id="j_idt28:messages_s" type="text/javascript">$(function(){PrimeFaces.cw("Growl","widget_j_idt28_messages",{id:"j_idt28:messages",sticky:false,life:6000,escape:true,keepAlive:false,msgs:[]});});</script>
+
+            <div class="dashboard">
+
+                <div class="dashboard-header">
+                    <div class="ui-g">
+                        <div class="ui-g-12 ui-md-6">                        
+                            <div class="dashboard-title">
+                                <h2>
+                                    <i class="fa fa-gears" style="display:inline-block;"></i>
+                                    <p style="display:inline-block">Qualidade e Melhoria Contínua</p>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="ui-g-12 ui-md-10">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="918437445381504173:-5844684084594643557" autocomplete="off" />
+</form>
+                </div>
+        
+    <div class="footer"><img id="footer-logo" src="/sqmcapp/javax.faces.resource/images/logo.png.xhtml?ln=icarus-layout" height="90px" style="height:50px" width="50px" />
+        <p><b>SQMC | Unitel DSI</b> - Todos os direitos reservados.</p>
+    </div>
+            </div>
+        </div><div id="j_idt34" style="width:32px;height:32px;position:fixed;right:7px;bottom:7px"><div id="j_idt34_start" style="display:none"><img id="j_idt35" src="/sqmcapp/javax.faces.resource/images/preloader.gif.xhtml?ln=icarus-layout" alt="" style="width: 32px;" /></div><div id="j_idt34_complete" style="display:none"></div></div><script id="j_idt34_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt34",{id:"j_idt34"});});</script></body>
+
+</html>
