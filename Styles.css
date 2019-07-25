@@ -1,0 +1,77 @@
+element.style {
+}
+li, li a, p {
+    color: #555;
+}
+
+* {
+    border-radius: 0!important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    margin: 5px;
+    line-height: 1.8em;
+    list-style-type: square;
+    list-style-image: url(/imagens/linux-arrow.gif);
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+#corpoArtigo {
+    font-size: 1.2em;
+    word-wrap: break-word;
+}
+.esquerda {
+    text-align: left;
+}
+.centro {
+    text-align: center;
+}
+body {
+    font-size: 14px;
+}
+body {
+    color: #333;
+    font-size: 13px;
+    line-height: 1.6;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
